@@ -1,0 +1,21 @@
+{
+    "name": "50ph1a",
+    "displayName": "50PH1A",
+    "description": "It's snowing at night while you're coding.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.53.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "50PH1A",
+                "uiTheme": "vs-dark",
+                "path": "./themes/50PH1A-color-theme.json"
+            }
+        ]
+    }
+}
