@@ -84,19 +84,25 @@
     },
     "tokenColors": [
         {
-            "name": "L6 - Other keywords",
-            "scope": [
-                "keyword.other"
-            ],
+            "name": "Source base",
+            "scope": "source",
+            "settings": {
+                "foreground": "#f0e2db",
+            }
+        },
+        {
+            "name": "Other keywords",
+            "scope": "keyword.other",
             "settings": {
                 "foreground": "#466365",
                 "fontStyle": ""
             }
         },
         {
-            "name": "L5 - Comment punctuation",
+            "name": "Comment punctuation",
             "scope": [
-                "punctuation.definition.comment"
+                "punctuation.definition.comment",
+                "string.quoted.docstring.multi.python"
             ],
             "settings": {
                 "fontStyle": "",
@@ -104,7 +110,7 @@
             }
         },
         {
-            "name": "L5 - Comment body",
+            "name": "Comment body",
             "scope": [
                 "comment"
             ],
@@ -114,32 +120,114 @@
             }
         },
         {
-            "name": "L4 - Braces",
+            "name": "Strings",
+            "scope": [
+                "string.quoted"
+            ],
+            "settings": {
+                "foreground": "#89CA78"
+            }
+        },
+        {
+            "name": "Annotations",
+            "scope": [
+                "punctuation.separator.annotation"
+            ],
+            "settings": {
+                "foreground": "#7f8fa6",
+            }
+        },
+        {
+            "name": "Braces",
             "scope": [
                 "punctuation.section.group",
                 "punctuation.section.bracket",
-                "punctuation.section.braces"
+                "punctuation.section.braces",
+                "punctuation.definition.arguments",
+                "punctuation.definition.parameters",
+                "punctuation.parenthesis",
+                "punctuation.definition.list",
+                "constant.character.format.placeholder.other"
             ],
             "settings": {
-                "foreground": "#957FEF",
+                "foreground": "#413472",
             }
         },
         {
-            "name": "L3 - Callables",
+            "name": "Sections",
             "scope": [
-                "support.function"
+                "entity.name.tag.html"
             ],
             "settings": {
-                "foreground": "#006E90",
+                "foreground": "#8d51c2",
             }
         },
         {
-            "name": "L0 - Numeric values",
+            "name": "Callables",
             "scope": [
-                "constant.numeric"
+                "support.function",
+                "entity.name.function",
+                "entity.name.type",
+                "meta.function-call.generic",
+                "variable.other.jinja",
+                "markup.inline.raw.string.markdown"
             ],
             "settings": {
-                "foreground": "#EF596F",
+                "foreground": "#4170a0",
+            }
+        },
+        {
+            "name": "Controls",
+            "scope": [
+                "keyword.control",
+                "keyword.operator",
+                "storage.type.function",
+                "storage.type.class",
+                "storage.type.string",
+                "punctuation.separator.colon",
+                "entity.name.section.markdown",
+                "punctuation.definition.heading.markdown"
+            ],
+            "settings": {
+                "foreground": "#bb0057",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "Types",
+            "scope": [
+                "support.type"
+            ],
+            "settings": {
+                "foreground": "#FBC531",
+            }
+        },
+        {
+            "name": "Variables",
+            "scope": [
+                "entity.other.attribute-name.html",
+            ],
+            "settings": {
+                "foreground": "#D8985F",
+            }
+        },
+        {
+            "name": "Constant values",
+            "scope": [
+                "constant.numeric",
+                "constant.language"
+            ],
+            "settings": {
+                "foreground": "#bb0057",
+            }
+        },
+        {
+            "name": "Function arguments",
+            "scope": [
+                "variable.parameter.function"
+            ],
+            "settings": {
+                "foreground": "#c71266",
             }
         }
     ]
