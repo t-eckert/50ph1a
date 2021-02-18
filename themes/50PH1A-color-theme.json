@@ -84,38 +84,28 @@
     },
     "tokenColors": [
         {
-            "name": "Source base",
+            "name": "Base",
             "scope": "source",
             "settings": {
                 "foreground": "#f0e2db",
             }
         },
         {
-            "name": "Other keywords",
+            "name": "Keywords",
             "scope": "keyword.other",
             "settings": {
                 "foreground": "#6c8a8b",
-                "fontStyle": ""
             }
         },
         {
-            "name": "Comment punctuation",
+            "name": "Comments",
             "scope": [
                 "punctuation.definition.comment",
-                "string.quoted.docstring.multi.python"
+                "string.quoted.docstring.multi.python",
+                "comment",
+                "punctuation.separator.annotation"
             ],
             "settings": {
-                "fontStyle": "",
-                "foreground": "#7f8fa6"
-            }
-        },
-        {
-            "name": "Comment body",
-            "scope": [
-                "comment"
-            ],
-            "settings": {
-                "fontStyle": "",
                 "foreground": "#7f8fa6"
             }
         },
@@ -126,15 +116,6 @@
             ],
             "settings": {
                 "foreground": "#89CA78"
-            }
-        },
-        {
-            "name": "Annotations",
-            "scope": [
-                "punctuation.separator.annotation"
-            ],
-            "settings": {
-                "foreground": "#7f8fa6",
             }
         },
         {
@@ -160,7 +141,7 @@
                 "storage.type"
             ],
             "settings": {
-                "foreground": "#8d51c2",
+                "foreground": "#534780",
             }
         },
         {
@@ -195,6 +176,25 @@
             }
         },
         {
+            "name": "Constant values",
+            "scope": [
+                "constant.numeric",
+                "constant.language"
+            ],
+            "settings": {
+                "foreground": "#bb0057",
+            }
+        },
+        {
+            "name": "Function arguments",
+            "scope": [
+                "variable.parameter.function"
+            ],
+            "settings": {
+                "foreground": "#bb0057",
+            }
+        },
+        {
             "name": "Types",
             "scope": [
                 "support.type",
@@ -211,25 +211,6 @@
             ],
             "settings": {
                 "foreground": "#D8985F",
-            }
-        },
-        {
-            "name": "Constant values",
-            "scope": [
-                "constant.numeric",
-                "constant.language"
-            ],
-            "settings": {
-                "foreground": "#bb0057",
-            }
-        },
-        {
-            "name": "Function arguments",
-            "scope": [
-                "variable.parameter.function"
-            ],
-            "settings": {
-                "foreground": "#c71266",
             }
         }
     ]
