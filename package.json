@@ -7,6 +7,9 @@
     "repository": {
         "url": "https://github.com/t-eckert/50ph1a"
     },
+    "scripts": {
+        "deploy": "vsce publish"
+    },
     "engines": {
         "vscode": "^1.53.0"
     },
@@ -21,5 +24,8 @@
                 "path": "./themes/50PH1A-color-theme.json"
             }
         ]
+    },
+    "devDependencies": {
+        "vsce": "^1.85.0"
     }
 }
