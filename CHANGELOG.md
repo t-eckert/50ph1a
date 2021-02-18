@@ -8,4 +8,4 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Initial release with a first pass of styling.
 
-![A screenshot of Python in version 0.0.1](/screenshots/v0.0.1-python.png)
+![A screenshot of Python in version 0.0.1](https://github.com/t-eckert/50ph1a/blob/main/screenshots/v0.0.1-python.png)
