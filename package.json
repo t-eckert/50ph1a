@@ -3,6 +3,10 @@
     "displayName": "50PH1A",
     "description": "It's snowing at night while you're coding.",
     "version": "0.0.1",
+    "publisher": "thomaseckert",
+    "repository": {
+        "url": "https://github.com/t-eckert/50ph1a"
+    },
     "engines": {
         "vscode": "^1.53.0"
     },
