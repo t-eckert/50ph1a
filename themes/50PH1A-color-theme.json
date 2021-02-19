@@ -94,7 +94,7 @@
             "name": "Other keywords",
             "scope": "keyword.other",
             "settings": {
-                "foreground": "#466365",
+                "foreground": "#6c8a8b",
                 "fontStyle": ""
             }
         },
@@ -156,7 +156,8 @@
         {
             "name": "Sections",
             "scope": [
-                "entity.name.tag.html"
+                "entity.name.tag.html",
+                "storage.type"
             ],
             "settings": {
                 "foreground": "#8d51c2",
@@ -186,17 +187,18 @@
                 "storage.type.string",
                 "punctuation.separator.colon",
                 "entity.name.section.markdown",
-                "punctuation.definition.heading.markdown"
+                "punctuation.definition.heading.markdown",
+                "storage.modifier"
             ],
             "settings": {
                 "foreground": "#bb0057",
-                "fontStyle": ""
             }
         },
         {
             "name": "Types",
             "scope": [
-                "support.type"
+                "support.type",
+                "keyword.type"
             ],
             "settings": {
                 "foreground": "#FBC531",
