@@ -1,10 +1,16 @@
 # Change Log
 
+## `v0.0.3`
+
+Increased overall color vibrancy for syntax.
+
+![A screenshot of Python in version 0.0.3](https://github.com/t-eckert/50ph1a/blob/main/screenshots/v0.0.3-python.png)
+
 ## `v0.0.2`
 
 I reduced duplicate colors that were very similar to each other and added a snazzy icon:
 
-
+![The icon for the 50PH1A theme](https://github.com/t-eckert/50ph1a/blob/main/icon.png)
 
 ## `v0.0.1`
 
