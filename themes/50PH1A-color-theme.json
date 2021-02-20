@@ -106,7 +106,8 @@
                 "punctuation.definition.comment",
                 "string.quoted.docstring.multi.python",
                 "comment",
-                "punctuation.separator.annotation"
+                "punctuation.separator.annotation",
+                "meta.preprocessor.cs"
             ],
             "settings": {
                 "foreground": "#7f8fa6"
