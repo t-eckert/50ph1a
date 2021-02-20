@@ -139,6 +139,15 @@
             }
         },
         {
+            "name": "Markdown lists",
+            "scope": [
+                "punctuation.definition.list.begin.markdown"
+            ],
+            "settings": {
+                "foreground": "#7f8fa6"
+            }
+        },
+        {
             "name": "Sections",
             "scope": [
                 "entity.name.tag.html",
