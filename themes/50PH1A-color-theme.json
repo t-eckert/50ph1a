@@ -85,7 +85,10 @@
     "tokenColors": [
         {
             "name": "Base",
-            "scope": "source",
+            "scope": [
+                "source",
+                "meta.paragraph.markdown"
+            ],
             "settings": {
                 "foreground": "#f0e2db",
             }
