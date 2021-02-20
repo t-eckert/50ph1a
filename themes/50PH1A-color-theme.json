@@ -242,7 +242,7 @@
                 "entity.other.attribute-name.html",
             ],
             "settings": {
-                "foreground": "#D8985F",
+                "foreground": "#d48641",
             }
         }
     ]
