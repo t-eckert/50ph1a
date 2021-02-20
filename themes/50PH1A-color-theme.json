@@ -148,6 +148,24 @@
             }
         },
         {
+            "name": "Markdown link names",
+            "scope": [
+                "string.other.link.title.markdown"
+            ],
+            "settings": {
+                "foreground": "#FBC531"
+            }
+        },
+        {
+            "name": "Markdown links",
+            "scope": [
+                "markup.underline.link.markdown"
+            ],
+            "settings": {
+                "foreground": "#534780",
+            }
+        },
+        {
             "name": "Sections",
             "scope": [
                 "entity.name.tag.html",
