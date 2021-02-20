@@ -1,8 +1,10 @@
 # Change Log
 
-All notable changes to the "50ph1a" extension will be documented in this file.
+## `v0.0.2`
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+I reduced duplicate colors that were very similar to each other and added a snazzy icon:
+
+
 
 ## `v0.0.1`
 
