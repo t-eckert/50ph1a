@@ -185,7 +185,7 @@
                 "storage.modifier"
             ],
             "settings": {
-                "foreground": "#bb0057",
+                "foreground": "#ff0077",
             }
         },
         {
@@ -195,7 +195,7 @@
                 "constant.language"
             ],
             "settings": {
-                "foreground": "#bb0057",
+                "foreground": "#ff0077",
             }
         },
         {
@@ -204,7 +204,7 @@
                 "variable.parameter.function"
             ],
             "settings": {
-                "foreground": "#bb0057",
+                "foreground": "#ff0077",
             }
         },
         {
