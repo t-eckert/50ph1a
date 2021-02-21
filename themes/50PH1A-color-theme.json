@@ -101,6 +101,13 @@
             }
         },
         {
+            "name": "CSS Classes",
+            "scope": "entity.name.tag.css",
+            "settings": {
+                "foreground": "#6c8a8b",
+            }
+        },
+        {
             "name": "Comments",
             "scope": [
                 "punctuation.definition.comment",
@@ -170,6 +177,8 @@
             "scope": [
                 "entity.name.tag.html",
                 "entity.name.tag.template.html",
+                "entity.name.tag.block.any.html",
+                "entity.name.tag.script.html",
                 "storage.type"
             ],
             "settings": {
