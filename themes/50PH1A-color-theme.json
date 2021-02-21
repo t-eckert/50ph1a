@@ -239,7 +239,8 @@
             "name": "Types",
             "scope": [
                 "support.type",
-                "keyword.type"
+                "keyword.type",
+                "support.class.component.html"
             ],
             "settings": {
                 "foreground": "#FBC531",
