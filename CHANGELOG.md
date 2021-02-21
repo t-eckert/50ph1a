@@ -1,5 +1,12 @@
 # Change Log
 
+## `v0.0.4`
+
+- Style HTML tags
+- Increase HTML variable vibrancy
+- Color markdown links
+- Add styling to CSS classes
+
 ## `v0.0.3`
 
 Increased overall color vibrancy for syntax.
