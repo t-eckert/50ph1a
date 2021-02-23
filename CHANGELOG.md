@@ -1,5 +1,10 @@
 # Change Log
 
+## `v0.0.5`
+
+- Style keys and strings in YAML
+- Style Vue classes in HTML template
+
 ## `v0.0.4`
 
 - Style HTML tags
