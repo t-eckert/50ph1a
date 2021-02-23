@@ -123,7 +123,8 @@
         {
             "name": "Strings",
             "scope": [
-                "string.quoted"
+                "string.quoted",
+                "string"
             ],
             "settings": {
                 "foreground": "#6dca56"
@@ -241,6 +242,15 @@
                 "support.type",
                 "keyword.type",
                 "support.class.component.html"
+            ],
+            "settings": {
+                "foreground": "#FBC531",
+            }
+        },
+        {
+            "name": "Keys",
+            "scope": [
+                "entity.name.tag.yaml"
             ],
             "settings": {
                 "foreground": "#FBC531",
