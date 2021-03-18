@@ -180,6 +180,8 @@
                 "entity.name.tag.template.html",
                 "entity.name.tag.block.any.html",
                 "entity.name.tag.script.html",
+                "entity.name.tag.tsx",
+                "entity.name.tag.jsx",
                 "storage.type"
             ],
             "settings": {

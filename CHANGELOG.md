@@ -1,5 +1,9 @@
 # Change Log
 
+## `v0.0.6`
+
+- Highlight tags in JSX/TSX
+
 ## `v0.0.5`
 
 - Style keys and strings in YAML
