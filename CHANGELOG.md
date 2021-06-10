@@ -1,5 +1,9 @@
 # Change Log
 
+## `v0.0.7`
+
+- Add some formatting for Rust
+
 ## `v0.0.6`
 
 - Highlight tags in JSX/TSX
