@@ -140,7 +140,9 @@
                 "punctuation.definition.parameters",
                 "punctuation.parenthesis",
                 "punctuation.definition.list",
-                "constant.character.format.placeholder.other"
+                "constant.character.format.placeholder.other",
+                "punctuation.brackets.attribute.rust",
+                "punctuation.definition.attribute.rust"
             ],
             "settings": {
                 "foreground": "#534780",
@@ -243,7 +245,8 @@
             "scope": [
                 "support.type",
                 "keyword.type",
-                "support.class.component.html"
+                "support.class.component.html",
+                "meta.attribute.rust"
             ],
             "settings": {
                 "foreground": "#FBC531",

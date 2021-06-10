@@ -1,32 +1,32 @@
 {
-    "name": "50ph1a",
-    "displayName": "50PH1A",
-    "description": "It's snowing at night while you're coding.",
-    "version": "0.0.6",
-    "publisher": "thomaseckert",
-    "repository": {
-        "url": "https://github.com/t-eckert/50ph1a"
-    },
-    "scripts": {
-        "deploy": "vsce publish"
-    },
-    "engines": {
-        "vscode": "^1.53.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "50PH1A",
-                "uiTheme": "vs-dark",
-                "path": "./themes/50PH1A-color-theme.json"
-            }
-        ]
-    },
-    "icon": "icon.png",
-    "devDependencies": {
-        "vsce": "^1.85.0"
-    }
+  "name": "50ph1a",
+  "displayName": "50PH1A",
+  "description": "It's snowing at night while you're coding.",
+  "version": "0.0.7",
+  "publisher": "thomaseckert",
+  "repository": {
+    "url": "https://github.com/t-eckert/50ph1a"
+  },
+  "scripts": {
+    "deploy": "vsce publish"
+  },
+  "engines": {
+    "vscode": "^1.53.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "50PH1A",
+        "uiTheme": "vs-dark",
+        "path": "./themes/50PH1A-color-theme.json"
+      }
+    ]
+  },
+  "icon": "icon.png",
+  "devDependencies": {
+    "vsce": "^1.85.0"
+  }
 }
