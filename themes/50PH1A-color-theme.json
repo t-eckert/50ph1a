@@ -90,7 +90,7 @@
                 "meta.paragraph.markdown"
             ],
             "settings": {
-                "foreground": "#f0e2db",
+                "foreground": "#ffffff",
             }
         },
         {
@@ -117,7 +117,8 @@
                 "meta.preprocessor.cs"
             ],
             "settings": {
-                "foreground": "#7f8fa6"
+                "foreground": "#7f8fa6",
+                "fontStyle": "italic"
             }
         },
         {
@@ -198,7 +199,8 @@
                 "entity.name.type",
                 "meta.function-call.generic",
                 "variable.other.jinja",
-                "markup.inline.raw.string.markdown"
+                "markup.inline.raw.string.markdown",
+                "keyword.function.go"
             ],
             "settings": {
                 "foreground": "#4170a0",
@@ -246,7 +248,8 @@
                 "support.type",
                 "keyword.type",
                 "support.class.component.html",
-                "meta.attribute.rust"
+                "meta.attribute.rust",
+                "keyword.var.go"
             ],
             "settings": {
                 "foreground": "#FBC531",

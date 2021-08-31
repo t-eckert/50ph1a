@@ -1,5 +1,9 @@
 # Change Log
 
+## `v0.0.8`
+
+- Add formatting for Golang
+
 ## `v0.0.7`
 
 - Add some formatting for Rust
