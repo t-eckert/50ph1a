@@ -1,5 +1,9 @@
 # Change Log
 
+## `v0.0.9`
+
+- Add highlighting for words matching search terms
+
 ## `v0.0.8`
 
 - Add formatting for Golang
