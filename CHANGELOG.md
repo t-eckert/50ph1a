@@ -1,5 +1,9 @@
 # Change Log
 
+## `v0.1.0`
+
+- Generalize tag color formatting
+
 ## `v0.0.9`
 
 - Add highlighting for words matching search terms
