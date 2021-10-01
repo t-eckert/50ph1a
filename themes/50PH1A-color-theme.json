@@ -179,12 +179,7 @@
         {
             "name": "Sections",
             "scope": [
-                "entity.name.tag.html",
-                "entity.name.tag.template.html",
-                "entity.name.tag.block.any.html",
-                "entity.name.tag.script.html",
-                "entity.name.tag.tsx",
-                "entity.name.tag.jsx",
+                "entity.name.tag",
                 "storage.type"
             ],
             "settings": {
