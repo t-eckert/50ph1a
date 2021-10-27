@@ -195,7 +195,6 @@
                 "meta.function-call.generic",
                 "variable.other.jinja",
                 "markup.inline.raw.string.markdown",
-                "keyword.function.go"
             ],
             "settings": {
                 "foreground": "#4170a0",
@@ -212,7 +211,9 @@
                 "punctuation.separator.colon",
                 "entity.name.section.markdown",
                 "punctuation.definition.heading.markdown",
-                "storage.modifier"
+                "storage.modifier",
+                "keyword.package",
+                "keyword.function"
             ],
             "settings": {
                 "foreground": "#ff0077",
