@@ -84,7 +84,7 @@
     },
     "tokenColors": [
         {
-            "name": "Base",
+            "name": "White",
             "scope": [
                 "source",
                 "meta.paragraph.markdown"
@@ -94,21 +94,28 @@
             }
         },
         {
-            "name": "Keywords",
-            "scope": "keyword.other",
+            "name": "Grey Green",
+            "scope": [
+                "keyword.other",
+                "entity.name.tag.css"
+            ],
             "settings": {
                 "foreground": "#6c8a8b",
             }
         },
         {
-            "name": "CSS Classes",
-            "scope": "entity.name.tag.css",
+            "name": "Grey",
+            "scope": [
+                "punctuation.definition.list.begin.markdown",
+                "entity.name.tag",
+                "storage.type",
+            ],
             "settings": {
-                "foreground": "#6c8a8b",
+                "foreground": "#7f8fa6"
             }
         },
         {
-            "name": "Comments",
+            "name": "Grey Italic",
             "scope": [
                 "punctuation.definition.comment",
                 "string.quoted.docstring.multi.python",
@@ -122,7 +129,7 @@
             }
         },
         {
-            "name": "Strings",
+            "name": "Green",
             "scope": [
                 "string.quoted",
                 "string"
@@ -132,7 +139,7 @@
             }
         },
         {
-            "name": "Braces",
+            "name": "Purple",
             "scope": [
                 "punctuation.section.group",
                 "punctuation.section.bracket",
@@ -143,33 +150,7 @@
                 "punctuation.definition.list",
                 "constant.character.format.placeholder.other",
                 "punctuation.brackets.attribute.rust",
-                "punctuation.definition.attribute.rust"
-            ],
-            "settings": {
-                "foreground": "#534780",
-            }
-        },
-        {
-            "name": "Markdown lists",
-            "scope": [
-                "punctuation.definition.list.begin.markdown"
-            ],
-            "settings": {
-                "foreground": "#7f8fa6"
-            }
-        },
-        {
-            "name": "Markdown link names",
-            "scope": [
-                "string.other.link.title.markdown"
-            ],
-            "settings": {
-                "foreground": "#FBC531"
-            }
-        },
-        {
-            "name": "Markdown links",
-            "scope": [
+                "punctuation.definition.attribute.rust",
                 "markup.underline.link.markdown"
             ],
             "settings": {
@@ -177,17 +158,22 @@
             }
         },
         {
-            "name": "Sections",
+            "name": "Yellow",
             "scope": [
-                "entity.name.tag",
-                "storage.type"
+                "string.other.link.title.markdown",
+                "support.type",
+                "keyword.type",
+                "support.class.component.html",
+                "keyword.var.go",
+                "entity.name.tag.yaml",
+                "variable.key.toml"
             ],
             "settings": {
-                "foreground": "#7f8fa6"
+                "foreground": "#FBC531"
             }
         },
         {
-            "name": "Callables",
+            "name": "Blue",
             "scope": [
                 "support.function",
                 "entity.name.function",
@@ -201,7 +187,7 @@
             }
         },
         {
-            "name": "Controls",
+            "name": "Red",
             "scope": [
                 "keyword.control",
                 "keyword.operator",
@@ -213,25 +199,11 @@
                 "punctuation.definition.heading.markdown",
                 "storage.modifier",
                 "keyword.package",
-                "keyword.function"
-            ],
-            "settings": {
-                "foreground": "#ff0077",
-            }
-        },
-        {
-            "name": "Constant values",
-            "scope": [
+                "keyword.function",
+                "variable.key.table.toml",
+                "keyword.other.fn.rust",
                 "constant.numeric",
-                "constant.language"
-            ],
-            "settings": {
-                "foreground": "#ff0077",
-            }
-        },
-        {
-            "name": "Function arguments",
-            "scope": [
+                "constant.language",
                 "variable.parameter.function"
             ],
             "settings": {
@@ -239,29 +211,7 @@
             }
         },
         {
-            "name": "Types",
-            "scope": [
-                "support.type",
-                "keyword.type",
-                "support.class.component.html",
-                "meta.attribute.rust",
-                "keyword.var.go"
-            ],
-            "settings": {
-                "foreground": "#FBC531",
-            }
-        },
-        {
-            "name": "Keys",
-            "scope": [
-                "entity.name.tag.yaml"
-            ],
-            "settings": {
-                "foreground": "#FBC531",
-            }
-        },
-        {
-            "name": "Variables",
+            "name": "Orange",
             "scope": [
                 "entity.other.attribute-name.html",
             ],
